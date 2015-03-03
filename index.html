@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)index.html -->
+<html class="ui-mobile"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><!--<base href="index.html">--><base href="."> 
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+<script src="./jQuery Mobile Demo_files/jquery-1.11.2.min.js"></script><style type="text/css"></style>
+<script src="./jQuery Mobile Demo_files/jquery.mobile-1.4.5.min.js"></script>
+<title>jQuery Mobile Demo</title></head>
+<body class="ui-mobile-viewport ui-overlay-a">
+
+<div data-role="page" id="pageone" data-url="pageone" tabindex="0" class="ui-page ui-page-theme-a ui-page-footer-fixed ui-page-active" style="padding-bottom: 44px; min-height: 868px;">
+  <div data-role="header" role="banner" class="ui-header ui-bar-inherit">
+  <h1 class="ui-title" role="heading" aria-level="1">jQuery Mobile Demo</h1>
+  </div>
+
+  <nav data-role="navbar" class="ui-navbar" role="navigation">
+    <ul class="ui-grid-c">
+      <li class="ui-block-a"><a href="index.html#home" data-rel="dialog" data-icon="home" class="ui-link ui-btn ui-icon-home ui-btn-icon-top">Home</a></li>
+      <li class="ui-block-b"><a href="index.html#email" data-rel="dialog" data-icon="grid" class="ui-link ui-btn ui-icon-grid ui-btn-icon-top">Email</a></li>
+      <li class="ui-block-c"><a href="index.html#phonebook" data-rel="dialog" data-icon="search" class="ui-link ui-btn ui-icon-search ui-btn-icon-top">Phonebook</a></li>
+      <li class="ui-block-d"><a href="index.html#calendar" data-rel="dialog" data-icon="calendar" class="ui-link ui-btn ui-icon-calendar ui-btn-icon-top">Calendar</a></li>
+    </ul>
+  </nav>
+  
+  <div data-role="main" class="ui-content"><br>
+  <p style="text-align:center;">Try jQuery Mobile by clicking the buttons above!</p>
+    </div>
+       
+  <div data-role="footer" data-position="fixed" role="contentinfo" class="ui-footer ui-bar-inherit ui-footer-fixed slideup">
+  <h1 class="ui-title" role="heading" aria-level="1">Copyright W3Schools</h1>
+  </div>
+</div> 
+
+<div data-role="page" id="email" data-url="email">
+  <div data-role="header">
+  <h1>Email Account</h1>
+  </div>
+              
+    <div data-role="main" class="ui-content">
+    <ul data-role="listview" data-inset="true">
+      <li><a href="index.html#">Inbox<span class="ui-li-count">25</span></a></li>
+      <li><a href="index.html#">Sent<span class="ui-li-count">432</span></a></li>
+      <li><a href="index.html#">Trash<span class="ui-li-count">7</span></a></li>
+    </ul>
+  <a href="index.html#pageone" data-role="button" data-inline="true" data-icon="back">Go Back</a>
+  </div>
+                  
+  <div data-role="footer" data-position="fixed">
+  <h1>Footer Text</h1>
+  </div>
+</div> 
+
+<div data-role="page" id="home" data-url="home">
+  <div data-role="header">
+  <h1>Home</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+  <p>Home Is Where The Heart Is!</p>
+  <a href="index.html#pageone" data-role="button" data-inline="true" data-icon="back">Go Back</a>
+  </div>
+
+  <div data-role="footer">
+  <h1>Footer Text</h1>
+  </div>
+</div>
+
+<div data-role="page" id="home2" data-url="home2">
+  <div data-role="header">
+  <h1>Home</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+  <p>Home Is Where The Heart Is!</p>
+  <a href="index.html#pageone" data-role="button" data-inline="true" data-icon="back">Go Back</a>
+  </div>
+
+  <div data-role="footer">
+  <h1>Footer Text</h1>
+  </div>
+</div> 
+
+
+<div data-role="page" id="calendar" data-url="calendar">
+  <div data-role="header">
+  <h1>Calendar</h1>
+  </div>
+
+   <div data-role="main" class="ui-content">
+     <ul data-role="listview" data-inset="true">
+      <li data-role="list-divider">Tuesday, February 10, 2014 <span class="ui-li-count">2</span></li>   
+      <li><a href="index.html#">   
+        <h2>Doctor</h2>
+        <p>Regular check at 12:00</p>
+        <p class="ui-li-aside">Appointment</p></a>
+      </li>
+      <li><a href="index.html#">
+        <h2>Glen Quagmire</h2>
+        <p>The clam at 18:00</p>
+        <p class="ui-li-aside">giggity giggity goo</p></a>
+      </li>
+    </ul>
+    <a href="index.html#pageone" data-role="button" data-inline="true" data-icon="back">Go Back</a>
+  </div>
+</div>
+  
+<div data-role="page" id="phonebook" data-url="phonebook">
+  <div data-role="header">
+  <h1>Phonebook</h1>
+  <a href="index.html#pageone" data-role="button" class="ui-btn-right" data-icon="back">Go Back</a>
+  </div>
+
+ <div data-role="main" class="ui-content">
+  
+  <ul data-role="listview" data-autodividers="true" data-inset="true" data-filter="true">
+    <li><a href="index.html#">Adele</a></li>
+    <li><a href="index.html#">Albert</a></li>
+    <li><a href="index.html#">Billy</a></li>
+    <li><a href="index.html#">Calvin</a></li>
+  </ul>
+  </div>
+</div> 
+
+
+<div class="ui-loader ui-corner-all ui-body-a ui-loader-default"><span class="ui-icon-loading"></span><h1>loading</h1></div></body></html>
